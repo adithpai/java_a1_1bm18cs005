@@ -23,7 +23,7 @@ class Employee
         IT=0.3*basic;//30%
         net=basic+DA+IT;
     }
-     public static void main()
+     public static void main(String args[])
     {Scanner obj=new Scanner(System.in);
         for(i=0;i<n-1;i++)
         {
