@@ -13,7 +13,7 @@ class Employee
     System.out.println("Enter Employee number,/n name,/n basic salary,/n DA,and IT");
     no=obj.nextInt();
     name=obj.nextLine();
-    basic=onj.nextInt();
+    basic=obj.nextInt();
     DA=obj.nextInt();
     IT=obj.nextInt();
     }}//end of for loop and read fucntion 
