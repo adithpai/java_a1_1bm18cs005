@@ -44,7 +44,7 @@ class Student{
                                   
             
         }
-        public void main()
+        public void main(String args[])
         {
           Scanner obj=new Scanner(System.in);
          System.out.println("Enter USN,name,marks in 5 subject,each subject is 4 credits");
