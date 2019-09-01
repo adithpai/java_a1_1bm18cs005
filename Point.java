@@ -22,14 +22,16 @@ static int dist;
     public static void main(String args[])
     {
         Point P1=new Point(1,2);
-        Point P2=new Point(3,4);
+        Point P2=new Point(P1);
+        Point P3=new Point(3,4);
         P1.Distance(P2);
         System.out.println("Distance="+dist);
     }
    double Distance()
    {
-       dist=Math.sqrt((x*x)+(y*y));
-       return dist;
+     
+  return Math.sqrt(Math.pow((x-p.x),2) + Math.pow((y-p.y),2));
+       
    }
 }
         
