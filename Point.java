@@ -27,7 +27,7 @@ static int dist;
         P1.Distance(P2);
         System.out.println("Distance="+dist);
     }
-   double Distance()
+   double Distance=P1.Distance(P3)
    {
      
   return Math.sqrt(Math.pow((x-p.x),2) + Math.pow((y-p.y),2));
