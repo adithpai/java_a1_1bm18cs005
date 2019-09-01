@@ -24,7 +24,7 @@ static int dist;
         Point P1=new Point(1,2);
         Point P2=new Point(P1);
         Point P3=new Point(3,4);
-        P1.Distance(P2);
+       
         System.out.println("Distance="+dist);
     }
    double Distance=P1.Distance(P3)
