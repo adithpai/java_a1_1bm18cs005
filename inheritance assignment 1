@@ -1,0 +1,39 @@
+import java.util.*;
+class person 
+{
+    String name;
+    int age;
+    String adress;
+}
+class student extends person
+{
+     int rollno,sem;
+}
+class exam extends student
+{   void calculate()
+    {
+      float marks1,marks2;
+      int high=0;
+      for(int i=0;i<n;i++)
+    {    name[i]=x.next();
+         marks1[i]=x.nextFloat();
+         marks2[i]=x.nextFloat();
+        avg[i]=(marks1[i]+marks2[i])/2;
+        if(avg[i]>high)
+        {
+         high=avg[i];
+         System.out.println(name[i]+"is the topper of the class");
+         break;
+        }
+    }
+    
+}
+public class examDemo
+{    public static void main()
+     {
+      name=new 
+      exam x=new exam();
+      System.out.println("Enter your name");
+      System.out.println("Enter the marks"+void calculate());
+      }
+}
